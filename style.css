@@ -1,16 +1,22 @@
 html
 {
+    padding: 0px;
+    margin: 0px;
     background-color: #FFFFFF;
-    width: 500px;
-    height: 500px;
+    width: 420px;
 }
 
 #barraizq
 {
-    
+    background-color: #f7b288;
+    display: inline;
+    float: left;
+    height: 352px;
+    width: 126px;
 }
 
 #cuerpo
 {
-    
+    background-color: #fbe7da;
+    height: 352px;
 }
