@@ -1,22 +1,48 @@
 html
 {
-    padding: 0px;
-    margin: 0px;
     background-color: #FFFFFF;
     width: 420px;
+    height: 352px;
+    margin-top: -21px;
+    margin-left: -8px;
 }
 
-#barraizq
+div#barraizq
 {
     background-color: #f7b288;
     display: inline;
     float: left;
-    height: 352px;
     width: 126px;
+    height: 352px;    
 }
 
-#cuerpo
+div#cuerpo
 {
     background-color: #fbe7da;
     height: 352px;
+} 
+
+img#uma
+{
+    margin: 13px;
+}
+
+ul#lista
+{
+    color: #0f70b7;
+    font-size: 12px;
+    list-style-type: square;
+    margin-top: 20px;
+    padding: 0;
+}
+
+ul#lista li
+{
+    margin-left: 33px;
+    padding-left: 10px;
+}
+
+div#contenido
+{
+    margin: 20px;
 }
