@@ -3,7 +3,7 @@ html
     background-color: #FFFFFF;
     width: 420px;
     height: 352px;
-    margin-top: -21px;
+    margin-top: -9px;
     margin-left: -8px;
 }
 
@@ -44,5 +44,48 @@ ul#lista li
 
 div#contenido
 {
-    margin: 20px;
+    padding: 16px 26px 12px 158px;
+}
+
+hr
+{
+    border-width: 1pt;
+    border-color: #000000;
+}
+
+nombre
+{
+    font-family: Corbel;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+position
+{
+    color: #29ace3;
+    font-family: Corbel;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+departamento
+{
+    font-family: Corbel;
+    color: #1faf50;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+empresa
+{
+    font-family: Corbel;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+div#der
+{
+    float: right;
 }
