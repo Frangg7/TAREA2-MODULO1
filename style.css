@@ -49,43 +49,92 @@ div#contenido
 
 hr
 {
-    border-width: 1pt;
     border-color: #000000;
+    border-top-width: 1px;
+    margin-bottom: 20px;
 }
 
-nombre
+p#nombre
 {
+    padding: 0px;
+    margin: 0px 0px -4px 0px;
     font-family: Corbel;
     font-size: 22px;
     font-weight: bold;
 }
 
-position
+p#position
 {
     color: #29ace3;
     font-family: Corbel;
     font-weight: bold;
     font-size: 14px;
+    padding: 0px;
+    margin: 0px;    
 }
 
-departamento
+div#departamento
+{
+    text-align: center;
+    margin-top: 25px;
+}
+
+div#departamento h4
 {
     font-family: Corbel;
     color: #1faf50;
     font-weight: bold;
     font-size: 12px;
+    margin: 0px auto 0px auto;
 }
 
-empresa
+div#empresa
+{
+    text-align: center;
+}
+
+div#empresa h4
 {
     font-family: Corbel;
     font-weight: bold;
     font-size: 12px;
     font-style: italic;
-    text-align: center;
+    margin: 0px auto 0px auto;    
 }
 
 div#der
 {
     float: right;
+}
+
+div#izq
+{
+    float: left;
+}
+
+div.bloque
+{
+    display: block;
+}
+
+td
+{
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+td.azulpeq
+{
+    color: #0f70b7;
+}
+
+td a
+{
+    text-decoration: none;
+    color: #0f70b7;
+}
+
+td img
+{
+    margin-right: 15px;
 }
